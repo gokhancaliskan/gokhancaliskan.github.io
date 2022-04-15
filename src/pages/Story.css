@@ -1,0 +1,7 @@
+.bio-image {
+  display: flex;
+  position: absolute;
+  left: 10%;
+  top: 12%;
+  z-index: -1;
+}
