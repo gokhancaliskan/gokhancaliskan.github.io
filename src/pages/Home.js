@@ -1,12 +1,11 @@
 import React from "react";
 import "./Home.css";
-import "swiper/css/navigation";
-import Corousel from "../components/Corousel/Corousel";
+import Slider from "../components/Slider/Slider";
 
 export const Home = () => {
   return (
     <div className="home-back">
-      <Corousel />
+      <Slider />
       GÖKHAN ÇALIŞKAN
       <CategoryList />
     </div>

@@ -12,7 +12,7 @@ const Navi = () => {
 
   return (
     <nav className="NaviItems">
-      <h2 className="navi-logo">
+      <h2 className="navi-logo" onClick={() => location("/")}>
         <i className="fas fa-laptop-code"></i> FEL
       </h2>
       <div className="menu-icon" onClick={handleClick}>
