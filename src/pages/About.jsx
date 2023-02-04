@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import { AboutItems } from "./AboutItems";
+import { AboutItems } from "../components/About/AboutItems";
 
 const About = () => {
 	return (

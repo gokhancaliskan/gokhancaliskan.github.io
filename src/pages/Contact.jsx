@@ -12,16 +12,13 @@ function Contact() {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		const config = {
+		Email.send({
 			SecureToken: "4082c671-9f52-4524-aa8b-947e44347df5",
 			To: "gokhancaliskan@frontendlearner.com",
-			From: formState.email,
 			Subject: formState.name,
+			From: formState.email,
 			Body: formState.message,
-		};
-		if (window.Email) {
-			window.Email.send(config).then(() => alert("Email Sent Succesfully"));
-		}
+		}).then(() => alert("Email Sent Succesfully"));
 	};
 
 	return (
@@ -41,6 +38,7 @@ function Contact() {
 				placeholder="Your email"
 			/>
 			<textarea
+				type="text"
 				name="message"
 				value={formState.message || ""}
 				onChange={handleChange}

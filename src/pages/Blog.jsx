@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Blog.css";
-import { BlogItems } from "./BlogItems";
+import { BlogItems } from "../components/Blog/BlogItems";
 
 const Projects = () => {
 	const [currentPage, setCurrentPage] = useState(0);

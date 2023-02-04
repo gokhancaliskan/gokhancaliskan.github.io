@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
-import About from "./components/About/About";
-import Navbar from "./components/Navbar/Navbar";
+import About from "./pages/About";
+import Navbar from "./pages/Navbar";
 import Projects from "./components/Projects/Projects";
-import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contact/Contact";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
 
 function App() {
 	return (
