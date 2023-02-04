@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavbarItems } from "../components/Navbar/NavbarItems";
-import "./Navbar.css";
+import "../components/Navbar/Navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {

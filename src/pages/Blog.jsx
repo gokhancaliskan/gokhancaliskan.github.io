@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Blog.css";
+import "../components/Blog/Blog.css";
 import { BlogItems } from "../components/Blog/BlogItems";
 
 const Projects = () => {
