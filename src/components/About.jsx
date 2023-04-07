@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const About = () => {
 	return (
 		<div className="flex py-10 text-white">
-			<div className=" flex items-center  ">
+			<div className=" flex justify-evenly  ">
 				<div className="w-1/3 text-center ">
 					<div className="text-lg font-bold mb-4 flex-row">Hello! I am FEL</div>
 					<div className="text-gray-600 text-white flex border-white border-4 border-solid p-4 rounded-2xl">
