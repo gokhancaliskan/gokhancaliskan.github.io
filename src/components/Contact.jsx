@@ -3,9 +3,9 @@ import React from "react";
 export const Contact = () => {
 	return (
 		<div className="py-8">
-			<div className="container px-4 mx-auto">
-				<h2 className="text-5xl font-bold flex justify-center text-white mb-8">
-					CONTACT
+			<div className="container px-4 mx-auto flex text-center  justify-evenly">
+				<h2 className="text-5xl font-bold flex flex-wrap content-center  text-white mb-8">
+					CONTACT ME
 				</h2>
 				<div className="flex justify-center">
 					<form className="max-w-lg w-full">
